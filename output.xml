@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1.1 (Python 3.10.12 on win32)" generated="20240524 10:03:18.593" rpa="false" schemaversion="4">
+<suite id="s1" name="TestCase1" source="c:\Users\ycycr\OneDrive\Desktop\CHIRU PRACTISE\ROBOT FRAMEWORK\PROJRCT AUTOMATION\TestSuites\TestCase1.robot">
+<test id="s1-t1" name="Automation1" line="9">
+<kw name="Fill Form and Submit">
+<msg timestamp="20240524 10:03:28.893" level="FAIL">No keyword with name 'Fill Form and Submit' found.</msg>
+<status status="FAIL" starttime="20240524 10:03:28.891" endtime="20240524 10:03:28.896"/>
+</kw>
+<kw name="sleep(5)">
+<status status="NOT RUN" starttime="20240524 10:03:28.909" endtime="20240524 10:03:28.910"/>
+</kw>
+<status status="FAIL" starttime="20240524 10:03:28.880" endtime="20240524 10:03:28.911">No keyword with name 'Fill Form and Submit' found.</status>
+</test>
+<status status="FAIL" starttime="20240524 10:03:18.660" endtime="20240524 10:03:28.915"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="TestCase1">TestCase1</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20240524 10:03:28.810" level="ERROR">Error in file 'c:\Users\ycycr\OneDrive\Desktop\CHIRU PRACTISE\ROBOT FRAMEWORK\PROJRCT AUTOMATION\TestSuites\TestCase1.robot' on line 5: Processing variable file '../Variables/Variable1.variables' failed: Importing variable file '../Variables/Variable1.variables' failed: ModuleNotFoundError: No module named '.'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  c:\Users\ycycr\OneDrive\Desktop\CHIRU PRACTISE\ROBOT FRAMEWORK\PROJRCT AUTOMATION
+  c:\Users\ycycr\.vscode\extensions\robocorp.robotframework-lsp-1.12.0\src\robotframework_debug_adapter
+  c:\Users\ycycr\OneDrive\Desktop\CHIRU PRACTISE\ROBOT FRAMEWORK\PROJRCT AUTOMATION
+  c:\Users\ycycr\.vscode\extensions\robocorp.robotframework-lsp-1.12.0\src
+  c:\Users\ycycr\.vscode\extensions\robocorp.robotframework-lsp-1.12.0\src\robotframework_ls\vendored
+  c:\ProgramData\robocorp\ht\aa2b2a3_b1f3c24_1c0bc041\python310.zip
+  c:\ProgramData\robocorp\ht\aa2b2a3_b1f3c24_1c0bc041\DLLs
+  c:\ProgramData\robocorp\ht\aa2b2a3_b1f3c24_1c0bc041\lib
+  c:\ProgramData\robocorp\ht\aa2b2a3_b1f3c24_1c0bc041
+  c:\ProgramData\robocorp\ht\aa2b2a3_b1f3c24_1c0bc041\lib\site-packages
+  c:\ProgramData\robocorp\ht\aa2b2a3_b1f3c24_1c0bc041\lib\site-packages\win32
+  c:\ProgramData\robocorp\ht\aa2b2a3_b1f3c24_1c0bc041\lib\site-packages\win32\lib
+  c:\ProgramData\robocorp\ht\aa2b2a3_b1f3c24_1c0bc041\lib\site-packages\Pythonwin</msg>
+<msg timestamp="20240524 10:03:28.875" level="WARN">Imported resource file 'c:\Users\ycycr\OneDrive\Desktop\CHIRU PRACTISE\ROBOT FRAMEWORK\PROJRCT AUTOMATION\Resources\resource1.robot' is empty.</msg>
+</errors>
+</robot>
